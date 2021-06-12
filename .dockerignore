@@ -1,0 +1,6 @@
+__sapper__
+node_modules
+scripts
+.gitignore
+README.md
+package-lock.json
