@@ -2,8 +2,6 @@
 	import ScrollIndicator from '../components/ScrollIndicator.svelte';
 	import SocialmediaIcons from '../components/SocialmediaIcons.svelte';
 	// images
-	import logo from 'images/logo.png';
-	import me from 'images/Me.jpg';
 </script>
 
 <style>
@@ -78,11 +76,11 @@
 	<!-- Social media -->
 	<meta property="og:title" content="adsnowa">
 	<meta property="og:description" content="Adam Nowakowski - portfolio graficzne">
-	<meta property="og:image" content="{logo}">
+	<meta property="og:image" content="/logo.png">
 	<meta property="og:url" content="http://adsnowa.pl">
 	<meta name="twitter:title" content="Adsnowa">
 	<meta name="twitter:description" content="Adam Nowakowski - portfolio graficzne">
-	<meta name="twitter:image" content="{logo}">
+	<meta name="twitter:image" content="/logo.png">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@adsnowa">
 
@@ -96,7 +94,7 @@
 
 <ScrollIndicator stop={0.98}/>
 <div class="img-box">
-	<img src="{me}" alt="Adam Nowakowski" class="darken" on:load="{(e) => e.target.classList.remove("darken")}">
+	<img src="/Me.jpeg" alt="Adam Nowakowski" class="darken" on:load="{(e) => e.target.classList.remove("darken")}">
 </div>
 <div class="text-container">
 	<h1>

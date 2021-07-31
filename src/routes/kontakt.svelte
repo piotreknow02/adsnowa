@@ -1,9 +1,6 @@
 <script>
     import ScrollIndicator from "../components/ScrollIndicator.svelte";
     import SocialmediaIcons from "../components/SocialmediaIcons.svelte";
-
-    // images
-    import logo from 'images/logo.png';
 </script>
 
 <style>
@@ -50,11 +47,11 @@
 	<!-- Social media -->
 	<meta property="og:title" content="adsnowa">
 	<meta property="og:description" content="Adam Nowakowski - kontakt">
-	<meta property="og:image" content="{logo}">
+	<meta property="og:image" content="/logo.png">
 	<meta property="og:url" content="http://adsnowa.pl">
 	<meta name="twitter:title" content="Adsnowa">
 	<meta name="twitter:description" content="Adam Nowakowski - kontakt">
-	<meta name="twitter:image" content="{logo}">
+	<meta name="twitter:image" content="/logo.png">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@adsnowa">
 
