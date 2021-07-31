@@ -1,5 +1,7 @@
 .DS_Store
 /node_modules/
 /src/node_modules/@sapper/
+src/node_modules/2021.js
+src/node_modules/galleryList.js
 yarn-error.log
 /__sapper__/
