@@ -34,13 +34,12 @@
     }
     img
     {
-        min-width: 20vw;
-        min-height: 20vh;
+        max-width: 30vw;
+        max-height: 30vh;
     }
     img:hover
     {
-        min-width: 40vw;
-        min-height: 40vh;
+        scale: 200%;
     }
 </style>
 
